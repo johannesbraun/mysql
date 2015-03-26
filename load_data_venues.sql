@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE '/Users/Johannes/Dropbox/DSR/msd/kaggle_data/test_indices.csv' INTO TABLE msd.test_triplet_ids CHARACTER SET UTF8 FIELDS TERMINATED BY '::' ENCLOSED BY '"' LINES TERMINATED BY '\n';

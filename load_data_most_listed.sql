@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE '/Users/Johannes/Dropbox/DSR/daniel/scraping/ra/most_listed.csv' INTO TABLE blasta.venue_most_listed CHARACTER SET UTF8 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';

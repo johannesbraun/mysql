@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE '/Users/Johannes/Dropbox/DSR/portfolioproject/events.csv' INTO TABLE blasta.events CHARACTER SET UTF8 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' (eventID, eventName, @var1, venueID, venueName, attending) set eventDate = STR_TO_DATE(@var1, '%a, %d %b %Y ');
